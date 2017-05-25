@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="CrossWeather.Wind.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CrossWeather.Window"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:Name="txtcity" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Sydney" VerticalAlignment="Top" Width="340"/>
+        <Button x:Name="Get_Me_Details" Content="Get Me Weather" HorizontalAlignment="Left" Margin="10,47,0,0" VerticalAlignment="Top" Width="340"/>
+        <TextBox x:Name="txtlong" HorizontalAlignment="Left" Margin="10,84,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="340"/>
+        <TextBox x:Name="txtlatit" HorizontalAlignment="Left" Margin="10,121,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="340"/>
+        <TextBox x:Name="txttemp" HorizontalAlignment="Left" Margin="10,158,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="340"/>
+
+    </Grid>
+</Page>
